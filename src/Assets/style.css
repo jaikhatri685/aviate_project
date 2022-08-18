@@ -186,4 +186,8 @@ body{
   word-break: break-all;
 }
 
+.navbar-toggler-icon,.navbar-toggler{
+  color: white !important;
+  background-color: white !important;
+}
   
