@@ -14,9 +14,6 @@ function NavBar() {
 
   const [activeLink, setActiveLink] = useState("home");
 
-
-
-
   return (
     <div className={`fixed z-50 top-0 w-full px-6 py-2 text-white `} style={{background:"#121212"}}>
     <Navbar collapseOnSelect bg="transparent" expand="lg" >
