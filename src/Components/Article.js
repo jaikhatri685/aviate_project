@@ -1,5 +1,6 @@
 import { text } from "../text";
 import { useState } from "react";
+import ArticleCard from "../Components/ArticleCard/Card"
 
 const Para = (info) => {
   const [showMore, setShowMore] = useState(false);
@@ -16,6 +17,8 @@ function Article() {
   return (
     <>
       <div className="px-10 lg:px-24 pt-20">
+        {/* <ArticleCard/> */}
+        
         {text.map((item, index) => {
           return (
             <>
@@ -33,7 +36,7 @@ function Article() {
                   {Para(item.info)}
                 </div>
                 <div className="w-3/4 lg:w-5/12 flex flex-row justify-center items-center relative " >
-                  <img className="rounded-3xl blog_img relative z-0 w-9/12" src={item.image} style={{boxShadow:"8px 8px 16px rgba(255, 255, 255, 0.07)"}}/>
+                  <img className="rounded-3xl blog_img relative z-0 w-9/12" src={process.env.PUBLIC_URL+item.image} style={{boxShadow:"8px 8px 16px rgba(255, 255, 255, 0.07)"}}/>
                 </div>
               </div>
             </>
