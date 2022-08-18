@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/aviate_project/static/css/main.05c06bbc.css",
+    "main.js": "/aviate_project/static/js/main.a012b995.js",
+    "static/media/Banner1.svg": "/aviate_project/static/media/Banner1.dba94972c561c7232ad753dde741fb35.svg",
+    "static/media/Logo.svg": "/aviate_project/static/media/Logo.6bf0f007e05a12201e90161d5b931981.svg",
+    "index.html": "/aviate_project/index.html",
+    "static/media/footer.svg": "/aviate_project/static/media/footer.c085d1eccaa11f54dd5fbe25f930333a.svg",
+    "static/media/Mask.svg": "/aviate_project/static/media/Mask.5f850f46d9dbd9784948a61e920192e7.svg",
+    "main.05c06bbc.css.map": "/aviate_project/static/css/main.05c06bbc.css.map",
+    "main.a012b995.js.map": "/aviate_project/static/js/main.a012b995.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05c06bbc.css",
+    "static/js/main.a012b995.js"
+  ]
+}
