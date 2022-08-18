@@ -14,17 +14,17 @@ export default function MediaCard({item,index}) {
     const [showMore, setShowMore] = useState(true);
    
   return (
-    <Card sx={{padding:"20px",boxShadow: 2, display: 'flex', alignItems:"center",...(index%2===0&&{flexDirection:{xs:"column",md:"row"}}),...(index%2===1 &&{flexDirection:{xs:"column",lg:"row-reverse"}}), borderRadius:"25px" ,mb:6}} >
+    <Card sx={{padding:"24px",boxShadow: 1, display: 'flex', alignItems:"center",...(index%2===0&&{flexDirection:{xs:"column",md:"row"}}),...(index%2===1 &&{flexDirection:{xs:"column",lg:"row-reverse"}}), borderRadius:"25px" ,mb:6}} >
         
       <CardMedia
         component="img"
         image={process.env.PUBLIC_URL+item?.image}
         alt="image"
-        sx={{boxShadow: 2,height:"100%", width: {xs:"100%",md:"30%"}, borderRadius:"25px"  }}
+        sx={{boxShadow: 3,height:"100%", width: {xs:"100%",md:"30%"}, borderRadius:"25px"  }}
 
       />
-      <Box sx={{...(index%2===0 && {pl:{md:6}}),...(index%2===1 &&{pr:{md:6}}) }}>
-      <CardContent sx={{}}>
+      <Box sx={{...(index%2===0 && {pl:{md:3}}),...(index%2===1 &&{pr:{md:3}}) }}>
+      <CardContent >
         <Typography gutterBottom variant="h4" component="div">
           {item?.heading}
         </Typography>

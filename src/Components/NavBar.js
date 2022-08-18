@@ -32,7 +32,7 @@ function NavBar() {
               className={` text-white  ${
                 activeLink === "calculator" ? "active" : ""
               }`}>Currency Exchange Calculator</Nav.Link></Link>
-           <Link to="/data_visualizer"><Nav.Link href="#action2" onClick={() => setActiveLink("data_visualizer")}
+           <Link to="/aviate_project/visualizer"><Nav.Link href="#action2" onClick={() => setActiveLink("data_visualizer")}
               className={` text-white  ${
                 activeLink === "data_visualizer" ? "active" : ""
               }`}>Data Visualizer</Nav.Link></Link>
