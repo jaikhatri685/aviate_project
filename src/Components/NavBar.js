@@ -1,18 +1,24 @@
-import Button from 'react-bootstrap/Button';
+//Bootstrap
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from "../Assets/icons/Logo.svg"
+
+//React
 import React, { useState } from "react";
+//Router
 import { Link } from "react-router-dom";
+
+/**
+ * NavBar Component taken from bootstrap library
+ * @returns
+ */
 
 
 function NavBar() {
 
 
-  const [activeLink, setActiveLink] = useState("home");
+  const [activeLink, setActiveLink] = useState("home"); // to set the active navbar tab
 
   return (
     <div className={`fixed z-50 top-0 w-full px-6 py-2 text-white `} style={{background:"#121212"}}>

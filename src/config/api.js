@@ -1,3 +1,5 @@
+//Contains the domain url and function for the currency convertor
+
 export const API_DOMAIN = "https://blockchain.info/tobtc?currency="
 export const endpointPath = (from, to) =>{
     if(to==="btc")

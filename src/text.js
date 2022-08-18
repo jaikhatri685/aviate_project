@@ -1,3 +1,5 @@
+//text data containing info about the blockchain and bitcoin taken from investopedia
+
 export const text=[
     {
         heading:"What Is a Blockchain?",

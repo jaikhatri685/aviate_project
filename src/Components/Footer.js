@@ -1,5 +1,8 @@
-import FooterBackground from "../Assets/images/footer.svg"
 
+/**
+ * Footer Component
+ * @returns
+ */
 function Footer() {
   return (
     <div className="footer flex flex-row justify-center py-32 px-10">

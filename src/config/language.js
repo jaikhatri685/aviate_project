@@ -1,3 +1,4 @@
+//label for the dropdown
 export const language = [
     { code: "USD" },
     { code: "AUD" },

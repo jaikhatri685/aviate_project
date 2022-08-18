@@ -5,6 +5,12 @@ const image = {
     "marginBottom": "30px",
     "width": "60px"
 }
+
+/**
+ * Displays spinner whenever conversion rate is being fetched
+ * @returns
+ */
+
 function Spinner() {
     return (
         <div className='text-center'>
