@@ -22,7 +22,7 @@ function NavBar() {
     <Navbar collapseOnSelect bg="transparent" expand="lg" >
       <Container fluid className="items-center">
         <Navbar.Brand >
-            <Link to="/article"><img src={Logo} alt="logo"/></Link>
+            <Link to="/aviate_project"><img src={Logo} alt="logo"/></Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -31,7 +31,7 @@ function NavBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-           <Link to="/calculator"><Nav.Link href="#action1" onClick={() => setActiveLink("calculator")}
+           <Link to="/aviate_project/calculator"><Nav.Link href="#action1" onClick={() => setActiveLink("calculator")}
               className={` text-white  ${
                 activeLink === "calculator" ? "active" : ""
               }`}>Currency Exchange Calculator</Nav.Link></Link>

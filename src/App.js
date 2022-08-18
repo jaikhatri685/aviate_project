@@ -11,8 +11,8 @@ function App() {
         <NavBar />
         
         <Routes>
-        <Route exact path='/article' element={[<Banner />,<Article/>]} />
-        <Route exact path='/calculator' element={<CurrencyCalculator/>} />
+        <Route exact path='/aviate_project' element={[<Banner />,<Article/>]} />
+        <Route exact path='/aviate_project/calculator' element={<CurrencyCalculator/>} />
         </Routes>
         <Footer />
       </div>
