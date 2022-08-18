@@ -23,7 +23,7 @@ export default function MediaCard({item,index}) {
         sx={{boxShadow: 2,height:"100%", width: {xs:"100%",md:"30%"}, borderRadius:"25px"  }}
 
       />
-      <Box sx={{...(index%2===0 && {pl:6}),...(index%2===1 &&{pr:6}) }}>
+      <Box sx={{...(index%2===0 && {pl:{md:6}}),...(index%2===1 &&{pr:{md:6}}) }}>
       <CardContent sx={{}}>
         <Typography gutterBottom variant="h4" component="div">
           {item?.heading}
