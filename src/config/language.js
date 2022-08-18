@@ -5,6 +5,22 @@ export const language = [
     { code: "CAD" },
     { code: "CHF" },
     { code: "CLP" },
-    { code: "CNY" }
+    { code: "CNY" },
+    { code: "DKK" },
+    { code: "EUR" },
+    { code: "GBP" },
+    { code: "HKD" },
+    { code: "INR" },
+    { code: "ISK" },
+    { code: "JPY" },
+    { code: "KRW" },
+    { code: "NZD" },
+    { code: "PLN" },
+    { code: "RUB" },
+    { code: "SEK" },
+    { code: "SGD" },
+    { code: "THB" },
+    { code: "TRY" },
+    { code: "TWD" },
 ]
 

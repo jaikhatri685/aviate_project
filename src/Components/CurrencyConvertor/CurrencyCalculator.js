@@ -103,7 +103,7 @@ function CurrencyCalculator() {
           }}
             className="mt-4"
           >
-            <img src="/images/sort.png" className="w-5 cursor-pointer "/>
+            <img src={process.env.PUBLIC_URL+`/images/sort.png`} className="w-5 cursor-pointer "/>
           </div>
           <div className="intodrop mt-0">
             <Dropdowns
